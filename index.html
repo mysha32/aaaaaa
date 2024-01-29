@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"> 
+    </script> 
+</head>
+
+<style>
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: Right;
+  display: block;
+  color:#fd8204;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color:#fd8204;
+}
+
+
+.topnav a.active {
+  background-color: #c5f0fa;
+  color: #229df0;
+}
+
+.card-deck {
+ margin-top: 20px;
+ margin:30px;
+}
+
+.card-img-top {
+width: 100%;
+height: 30vh;
+object-fit: cover;
+}
+
+</style>
+
+
+<body style="background-color:#E6E6E6">
+
+<div style="background-color:#40c1d4; height:15px"> <br> </div>
+
+<div class="topnav" style="background-color:white">
+ <img src="https://www.jellycat.com/images/core/new-logo-2022-v2-1.png" alt="logo" style="height:47px">
+  
+  <a href="https://jellycatecommerce.zendesk.com/hc/en-150/requests/new">Contact</a>
+  <a href="https://www.jellycat.com/eu/animals/">Animals</a>
+  <a class="active" href="https://www.jellycat.com/eu/">HOME</a>
+
+</div>
+
+<!-- first row -->
+  <div class="card-deck">
+    <div class="card" style="background-color:white">
+      <div class="card-body text-center">
+        <img class="card-img-top"src="https://www.jellycat.com/images/products/medium/JELC3M.jpg" alt="plush" style="height:84%"> 
+        <p> <span style="font-weight:bold"> Jellycat Jack </span> <br> €45.00</p>
+      </div>
+    </div>
+    
+    <div class="card" style="background-color:white">
+      <div class="card-body text-center">
+        <img class="card-img-top"src="https://www.jellycat.com/images/products/medium/FIN3FRN.jpg" alt="plush" style="height:84%"> 
+        <p class="card-text"> <span style="font-weight:bold"> Finnegan Frog </span> <br> €20.00</p>
+      </div>
+    </div>
+    
+    <div class="card" style="background-color:white">
+      <div class="card-body text-center">
+        <img class="card-img-top"src="https://www.jellycat.com/images/products/medium/BB6C.jpg" alt="plush" style="height:84%"> 
+        <p> <span style="font-weight:bold"> Bashful Bunny w/ Carrot </span> <br> €30.00</p>
+      </div>
+    </div>
+  </div>
+
+
+<!-- second row -->
+  <div class="card-deck">
+    <div class="card" style="background-color:white">
+      <div class="card-body text-center">
+        <img class="card-img-top"src="https://www.jellycat.com/images/products/medium/WAV6B.jpg" alt="plush" style="height:84%"> 
+        <p> <span style="font-weight:bold"> Wavelley Whale </span> <br> €18.00</p>
+      </div>
+    </div>
+    
+    <div class="card" style="background-color:white">
+      <div class="card-body text-center">
+        <img class="card-img-top"src="https://www.jellycat.com/images/products/medium/HUD2B.jpg" alt="plush" style="height:84%"> 
+        <p> <span style="font-weight:bold"> Huddle Bunny </span> <br> €50.00</p>
+      </div>
+    </div>
+    
+    <div class="card" style="background-color:white">
+      <div class="card-body text-center">
+        <img class="card-img-top"src="https://www.jellycat.com/images/products/medium/PAC3PUF.jpg" alt="plush" style="height:84%"> 
+        <p> <span style="font-weight:bold"> Pacey Pufferfish </span> <br> €38.00</p>
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="container">
+  
+<ul class="pagination justify-content-end">
+    <li class="page-item inactive"><a class="page-link" >Previous</a></li>
+    <li class="page-item waves-effect active" style="background-color:#fd8204"> 
+          <a href="/index.html">1</a> 
+        </li> 
+        <li class="page-item waves-effect"> 
+          <a href="/page2.html">2</a> 
+        </li> 
+        <li class="page-item waves-effect"> 
+          <a href="/page3.html">3</a> 
+        </li> 
+    <li class="page-item"><a class="page-link" href="/page2.html">Next</a></li>
+  </ul>
+</div>
+
+</body>
+</html>
